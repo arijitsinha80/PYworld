@@ -1,6 +1,5 @@
 Dataset - 
-Download the file from https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/'
-          'breast-cancer-wisconsin.data
+Download the file from [link](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/') -  'breast-cancer-wisconsin.data
 
 Dataset Info - It has the columns as 
 
@@ -21,10 +20,7 @@ Gather Statistical Information for Standard Deviation, Mean, Variance and Median
 Execute the script - 
           There is only 1 script as "main.py" can be executed to generate all the results. 
 
-This script downloads the data from weblink mentioned above and process the data.
-
-          This script has multiple functions - contblk(x), repbnk(x), statdf(x), histplt(x), corrmatrix(x), for finding the null values,
-          replace null values, calculate statistics, ploting histogram and plotting correlation matrix.
+This script downloads the data from weblink mentioned above and process the data. This script has multiple functions - contblk(x), repbnk(x), statdf(x), histplt(x), corrmatrix(x), for finding the null values, replace null values, calculate statistics, ploting histogram and plotting correlation matrix.
 
 Also, Created the functions as - 
           picktwocor(x), assigndf(x, u1, u2), updatemean(x, pc), recalmeanfifty(x, col, pc) for
@@ -34,12 +30,12 @@ Also, Created the functions as -
 After the run submitted the screenshot of comparision for class and predicted class for first 20 ID's.
 
 Once we have the overall prediction on 699 obeservations, we have taken the comparision for Cluster 2 and 4.
-          Not Matching Benign: 13
-          Not Matching Malignant 11
-          Total number of Benign: 456
-          Total number of Malignant: 243
-          Total numberof Records 699
-          Total Not Matched: 24
-          Error with Benign : 0.02851
-          Error with Malignant : 0.04527
-          Total Error Rate : 0.03433
+          1. Not Matching Benign: 13
+          2. Not Matching Malignant 11
+          3. Total number of Benign: 456
+          4. Total number of Malignant: 243
+          5. Total numberof Records 699
+          6. Total Not Matched: 24
+          7. Error with Benign : 0.02851
+          8. Error with Malignant : 0.04527
+          9. Total Error Rate : 0.03433
